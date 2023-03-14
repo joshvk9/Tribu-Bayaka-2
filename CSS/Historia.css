@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+body{
+    
+    background-image: url(../Imagenes/damian-patkowski-T-LfvX-7IVg-unsplash.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+
+#header {
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+}
+
+.nav li a {
+    background-color:#ffffff62;
+    color:#000000;
+    text-decoration:none;
+    padding:10px, 10px;
+    display:block;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 255, 255)
+ 
+}
+
+
+
+a:hover{
+
+    border: 2px solid #ffffff00;
+}
+
+h1{
+    color: #000000;
+  }
+  h2{
+    color: #000000;
+  }
+
+  @charset "utf-8";
+*{
+box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.tarjeta {
+  max-width: 65vw;
+  margin: 48px auto;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.contenido {
+  display: flex;
+}
+@media (max-width: 1024px){
+  .contenido{
+  flex-direction: column;
+  }
+  .tarjeta {
+   max-width: 95vw;
+  }
+}
+.ladoIzq, .ladoDer {
+  width: 100%;
+}
+.ladoDer img {
+  width: 100%;
+  height: 100%;
+  border-style: none;
+}
+.ladoIzq {
+  background: rgb(214, 160, 42);
+  color: white;
+  padding: 48px
+}
+.btn {
+  display: inline-block;
+  background: white;
+  margin-right: 4px;
+  padding: 14px;
+  border-radius: 5px;
+  margin-top: 18px;
+}
+a.btn{
+   text-decoration: none;
+}
+a.btn:first-of-type {
+   background: #5252b4;
+   color: white;
+}
+a.btn:hover{
+   opacity: 0.8;
+}
+
+h2{
+    color: #fff;
+}
+
+
+
+@charset "utf-8";
+*{
+box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI",Arial,sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.tarjeta3 {
+  max-width: 65vw;
+  margin: 48px auto;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.contenido3 {
+  display: flex;
+}
+@media (max-width: 1024px){
+  .contenido3{
+  flex-direction: column;
+  }
+  .tarjeta3 {
+   max-width: 5vw;
+  }
+}
+.ladoIzq3, .ladoDer3 {
+  width: 100%;
+}
+.ladoDer3 img {
+  width: 100%;
+  height: 100%;
+  border-style: none;
+}
+.ladoIzq3 {
+  background: rgb(214, 160, 42);
+  color: white;
+  padding: 48px
+}
+
